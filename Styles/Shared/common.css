@@ -1,0 +1,27 @@
+header::before{
+    content: "";
+    background-image: url("../../Assets/Images/BackGroundImage.png");
+    background-size:contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100vw;
+    height: 100vw;
+    z-index: -10;
+}
+
+h1{
+    color: #301014;
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2{
+    color: #434343;
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;;
+    font-weight: 600;
+}
